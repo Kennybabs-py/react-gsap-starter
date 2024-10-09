@@ -25,7 +25,7 @@ export class Home extends Dom {
         element: this.secondaryElements.dash[0],
         context: this.secondaryElements.textWrapper[0],
         animationProps: {
-          pin: this.element,
+          pin: true,
           trigger: this.secondaryElements.textWrapper[0],
           start: "top top",
           function: (tl) => {
