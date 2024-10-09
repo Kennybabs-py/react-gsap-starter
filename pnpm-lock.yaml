@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@gsap/react':
+    specifier: ^2.1.1
+    version: 2.1.1
   '@studio-freight/lenis':
     specifier: ^1.0.42
     version: 1.0.42
@@ -514,6 +517,13 @@ packages:
     dependencies:
       levn: 0.4.1
     dev: true
+
+  /@gsap/react@2.1.1:
+    resolution: {integrity: sha512-apGPRrmpqxvl1T6Io1KgT8tFU+IuACI6z4zmT7t8+PASserJeLVRFJdSNUFA2Xb/eVkZI1noE8LIrY/w/oJECw==}
+    dependencies:
+      gsap: 3.12.5
+      react: 18.3.1
+    dev: false
 
   /@humanfs/core@0.19.0:
     resolution: {integrity: sha512-2cbWIHbZVEweE853g8jymffCA+NCMiuqeECeBBLm8dg2oFdjuGJhgN4UAbI+6v0CKbbhvtXA4qV8YR5Ji86nmw==}

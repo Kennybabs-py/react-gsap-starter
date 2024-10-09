@@ -1,5 +1,14 @@
 .home {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.text__wrapper {
   height: 100vh;
+}
+
+.texts {
+  height: 100%;
   @include flex(center, center, 1rem);
 }
 

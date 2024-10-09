@@ -11,6 +11,7 @@ export class Home extends Dom {
       selector: ".home",
       secondarySelectors: {
         dash: ".home__dash",
+        textWrapper: ".text__wrapper",
       },
     });
 
@@ -22,8 +23,10 @@ export class Home extends Dom {
     this.animations.push(
       new ScrollAnimation({
         element: this.secondaryElements.dash[0],
+        context: this.secondaryElements.textWrapper[0],
         animationProps: {
-          trigger: this.element,
+          pin: this.element,
+          trigger: this.secondaryElements.textWrapper[0],
           start: "top top",
           function: (tl) => {
             tl.to(this.secondaryElements.dash[0], {

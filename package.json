@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@studio-freight/lenis": "^1.0.42",
     "@vitejs/plugin-react": "^4.3.2",
     "events": "^3.3.0",

@@ -13,6 +13,8 @@ export interface ScrollAnimationSettings {
 export interface ScrollAnimationProps {
   element: string | HTMLElement;
   animationProps: ScrollTrigger.Vars & ScrollAnimationSettings;
+
+  context: string | HTMLElement;
 }
 
 export type SecondaryElements = {
